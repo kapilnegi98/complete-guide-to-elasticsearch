@@ -10,6 +10,7 @@ GET /_cluster/health
 
 ```
 GET /_cat/nodes?v
+#v query parameter includes descriptive header in the output
 ```
 
 ## Listing the cluster's indices

@@ -3,6 +3,7 @@
 ## Indexing documents
 
 ```
+#Create will fail if doc already exists whereas Index will create the doc.
 POST /_bulk
 { "index": { "_index": "products", "_id": 200 } }
 { "name": "Espresso Machine", "price": 199, "in_stock": 5 }

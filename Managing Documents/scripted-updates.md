@@ -39,6 +39,7 @@ POST /products/_update/100
 ## Conditionally setting the operation to `noop`
 
 ```
+#noop means no operation
 POST /products/_update/100
 {
   "script": {
@@ -71,6 +72,7 @@ POST /products/_update/100
 ## Conditionally delete a document
 
 ```
+
 POST /products/_update/100
 {
   "script": {
